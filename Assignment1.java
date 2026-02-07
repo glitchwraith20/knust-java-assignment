@@ -1,6 +1,6 @@
 
 
-public class assignment1 {
+public class Assignment1 {
     public static void main(String[] args) {
         // A PROGRAM TO CALCULATE THE AVERAGE OF THE FIRST TEN INTEGERS, ITS STANDARD DEVIATION AND FACTORIAL OF SD
 
