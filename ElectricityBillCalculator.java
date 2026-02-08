@@ -7,11 +7,8 @@ public class ElectricityBillCalculator {
 
         final double COST_PER_KWH = 0.20;
         int noOfAppliances;
-        double consumption;
-        double baseCost;
-        double finalCost;
-        double totalConsumption = 0;
-        double totalCost = 0;
+        double consumption, baseCost, finalCost;
+        double totalConsumption = 0, totalCost = 0;
 
         System.out.print("Enter the total number of appliances: ");
         noOfAppliances = user.nextInt();
