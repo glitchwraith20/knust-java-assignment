@@ -21,7 +21,7 @@ public class ElectricityBillCalculator {
 
             if (consumption > 100) {
                 finalCost = baseCost + (baseCost * 0.15);
-                System.out.printf("Appliance %d: %.2f kWh, Cost: $%.2f (Surcharge Applied)\n", i, consumption, finalCost);
+                System.out.printf("Appliance %d: %.2f kWh, Cost: $%.2f\n", i, consumption, finalCost);
             }
             else {
                 finalCost = baseCost;

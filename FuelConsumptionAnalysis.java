@@ -36,12 +36,13 @@ public class FuelConsumptionAnalysis {
         } while (index < fuelConsumption.length);
 
         averageFuel = totalFuel / fuelConsumption.length;
+
         System.out.print("\n=== Weekly Summary ===\n");
         System.out.printf("Total Fuel Consumption: %.2f litres\n", totalFuel);
         System.out.printf("Average Daily Consumption: %.2f litres\n", averageFuel);
-        System.out.printf("High Usage Days: \n", highCount);
-        System.out.printf("Normal Usage Days: \n", normalCount);
-        System.out.printf("Low Usage Days: \n", lowCount);
+        System.out.printf("High Usage Days: %d\n", highCount);
+        System.out.printf("Normal Usage Days: %d\n", normalCount);
+        System.out.printf("Low Usage Days: %d\n", lowCount);
         System.out.printf("Peak Consumption: Day %d with %.2f litres\n", peakDay, peakConsumption);
 
     }
