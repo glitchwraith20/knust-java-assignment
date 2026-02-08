@@ -5,7 +5,6 @@ Welcome to my KNUST Java Assignment repository! This is a comprehensive collecti
 ## 📋 Table of Contents
 
 - [Repository Overview](#repository-overview)
-- [Current Assignments](#current-assignments)
 - [Repository Structure](#repository-structure)
 - [Prerequisites](#prerequisites)
 - [Setting Up Your Environment](#setting-up-your-environment)
@@ -17,8 +16,6 @@ Welcome to my KNUST Java Assignment repository! This is a comprehensive collecti
   - [Method 5: Visual Studio Code](#method-5-visual-studio-code)
   - [Method 6: NetBeans IDE](#method-6-netbeans-ide)
   - [Method 7: Online Compilers](#method-7-online-compilers)
-- [Program Descriptions](#program-descriptions)
-- [Assignment Progress Tracker](#assignment-progress-tracker)
 - [Troubleshooting](#troubleshooting)
 - [Contributing to This Repo](#contributing-to-this-repo)
 - [Author](#author)
@@ -28,7 +25,6 @@ Welcome to my KNUST Java Assignment repository! This is a comprehensive collecti
 This repository serves as a **complete tracking and version control system** for all my Java programming assignments at KNUST. Each assignment is maintained as an independent, well-documented program with proper versioning and commit history.
 
 ### Purpose
-- 📝 **Track Progress:** Monitor completion status of all assignments
 - 🗂️ **Organize Code:** Keep all Java programs in one centralized location
 - 📚 **Document Solutions:** Maintain clear documentation for each implementation
 - 🔄 **Version Control:** Track changes and improvements over time
@@ -36,27 +32,6 @@ This repository serves as a **complete tracking and version control system** for
 - 📊 **Portfolio:** Showcase programming skills and learning journey
 
 **Repository Link:** [https://github.com/glitchwraith20/knust-java-assignment.git](https://github.com/glitchwraith20/knust-java-assignment.git)
-
-## 📊 Current Assignments
-
-### Assignment Set 1 - Fundamentals (February 2026)
-
-| # | Program Name | Status | Type | Submission |
-|---|--------------|--------|------|------------|
-| 1 | ElectricityBillCalculator | ✅ Complete | Submission | Required |
-| 2 | WarehouseAnalysis | ✅ Complete | Logbook | Algorithm + Code |
-| 3 | FuelConsumptionAnalysis | ✅ Complete | Submission | Required |
-| 4 | MobileDataMonitor | ✅ Complete | Logbook | Algorithm + Code |
-| 5 | CinemaTicketBooking | ✅ Complete | Submission | Required |
-| 6 | KioskSystem | ✅ Complete | Logbook | Algorithm + Code |
-
-### Future Assignments
-*This section will be updated as new assignments are released*
-
-- Assignment Set 2 - *Coming Soon*
-- Assignment Set 3 - *Coming Soon*
-- Midterm Projects - *Coming Soon*
-- Final Project - *Coming Soon*
 
 ## 📁 Repository Structure
 
@@ -108,7 +83,6 @@ knust-java-assignment/
 
 - **Source Files:** `ProgramName.java` (matches class name exactly)
 - **Compiled Files:** `ProgramName.class` (auto-generated after compilation)
-- **Assignment Files:** `AssignmentX.java` where X is the assignment number
 
 ### Organization Strategy
 
@@ -475,162 +449,6 @@ If you don't want to install anything locally, use online Java compilers:
 4. Click "Run" or "Execute"
 5. Provide input when prompted in the console area
 
-## 📚 Program Descriptions
-
-### 1. ElectricityBillCalculator.java
-**Purpose:** Calculates electricity bills for multiple appliances with surcharge logic.
-
-**What it does:**
-- Asks for number of appliances
-- Collects consumption (kWh) for each appliance
-- Applies 15% surcharge for consumption > 100 kWh
-- Displays individual and total costs
-
-**Sample Run:**
-```
-Enter total number of appliances: 2
-Enter consumption (kWh) for appliance 1: 120
-Appliance 1: 120.0 kWh, Cost: $27.60 (Surcharge Applied)
-Enter consumption (kWh) for appliance 2: 80
-Appliance 2: 80.0 kWh, Cost: $16.00
-Total Consumption: 200.0 kWh
-Total Cost: $43.60
-```
-
----
-
-### 2. WarehouseAnalysis.java
-**Purpose:** Analyzes weight distribution of warehouse boxes.
-
-**What it does:**
-- Uses pre-defined array of 10 box weights
-- Classifies boxes as Heavy (>50kg), Medium (20-50kg), or Light (<20kg)
-- Calculates total weight, average, and identifies heaviest box
-- Provides statistical summary
-
-**Sample Output:**
-```
-Box Classification:
-Box 1: Light
-Box 2: Heavy
-Box 3: Medium
-...
-=== Summary ===
-Total Weight: 318.0 kg
-Average Weight: 31.8 kg
-Heavy Boxes: 2
-Medium Boxes: 5
-Light Boxes: 3
-Heaviest Box: Box 6 with 60.0 kg
-```
-
----
-
-### 3. FuelConsumptionAnalysis.java
-**Purpose:** Tracks weekly fuel consumption with while loop implementation.
-
-**What it does:**
-- Analyzes 7 days of fuel data using while loop
-- Classifies daily usage as High (>20L), Normal (10-20L), or Low (<10L)
-- Calculates weekly totals and averages
-- Identifies peak consumption day
-
-**Sample Output:**
-```
-Daily Fuel Consumption Report:
-Day 1: 12.50 liters - Normal
-Day 2: 22.00 liters - High
-Day 3: 8.40 liters - Low
-...
-=== Weekly Summary ===
-Total Fuel Consumption: 111.60 liters
-Average Daily Consumption: 15.94 liters
-Peak Consumption: Day 5 with 25.30 liters
-```
-
----
-
-### 4. MobileDataMonitor.java
-**Purpose:** Simulates real-time mobile data consumption monitoring.
-
-**What it does:**
-- Starts with 20 GB balance
-- Accepts session-by-session data usage
-- Validates input (rejects negative values)
-- Shows status alerts based on remaining balance
-- Continues until data is exhausted
-
-**Sample Run:**
-```
-Enter data used in this session (GB): 5
-Data balance is sufficient.
-Current Balance: 15.00 GB
-
-Enter data used in this session (GB): 12
-Warning: Data balance is low.
-Current Balance: 3.00 GB
-
-Enter data used in this session (GB): 2.5
-Critical: Data almost exhausted.
-Current Balance: 0.50 GB
-...
-```
-
----
-
-### 5. CinemaTicketBooking.java
-**Purpose:** Interactive cinema ticket booking kiosk.
-
-**What it does:**
-- Displays menu with ticket options repeatedly
-- Allows multiple ticket purchases
-- Tracks total tickets and cost
-- Classifies booking as Standard (1-3 tickets) or Group (>3 tickets)
-- Shows final summary
-
-**Sample Run:**
-```
-=== Cinema Ticket Booking ===
-1. Regular Ticket - GH₵25.00
-2. Student Ticket - GH₵15.00
-3. VIP Ticket - GH₵50.00
-4. Finish Booking
-Select option: 1
-Regular ticket added.
-...
-=== Booking Summary ===
-Booking Type: Group booking
-Total Tickets: 5
-Total Cost: GH₵140.00
-```
-
----
-
-### 6. KioskSystem.java
-**Purpose:** Fast-food ordering terminal with cart functionality.
-
-**What it does:**
-- Shows menu with Burger ($5.99) and Fries ($2.50)
-- Prompts for quantity for each item selected
-- Validates quantity (rejects negative values)
-- Maintains running total
-- Shows checkout summary
-
-**Sample Run:**
-```
-=== Fast Food Kiosk ===
-1. Burger - $5.99
-2. Fries - $2.50
-3. Checkout
-Select option: 1
-Enter quantity: 2
-Added 2 Burgers to cart
-...
-=== Checkout Summary ===
-Total Items: 4
-Grand Total: $16.98
-```
-
 ## 🔧 Troubleshooting
 
 ### Common Issues and Solutions
@@ -871,14 +689,6 @@ If you encounter issues not covered in troubleshooting:
 - Course materials and documentation
 - KNUST Programming course forums
 - Study group collaboration
-
-## 🎓 Course Information
-
-**Course Details:**
-- **Course:** Java Programming
-- **Institution:** KNUST
-- **Credit Hours:** 3
-- **Importance:** Assignments carry significant weight
 
 ## 🤝 Contributing to This Repo
 
