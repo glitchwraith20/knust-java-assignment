@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class ElectricityBillCalculator {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         
         Scanner user = new Scanner(System.in);

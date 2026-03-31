@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class ATM {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
 
         Scanner money = new Scanner(System.in);
@@ -24,7 +25,7 @@ public class ATM {
                     System.out.printf("Withdrawal successful. Balance: $%.2f\n", balance);
                 }
                 else {
-                    System.err.println("Insufficient Funds!");
+                    System.out.println("Insufficient Funds!");
                 }
             }
             else if (userAction == 2) {
